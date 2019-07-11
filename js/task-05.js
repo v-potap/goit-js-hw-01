@@ -30,8 +30,6 @@ if (country === null) {
   if (cost === -1) {
     alert("В вашей стране доставка не доступна");
   } else {
-    console.log(
-      `Доставка в ${country} будет стоить ${cost} кредитов`
-    );
+    console.log(`Доставка в ${country} будет стоить ${cost} кредитов`);
   }
 }
