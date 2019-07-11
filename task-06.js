@@ -1,11 +1,11 @@
 let total = 0;
-let userInput = null;
+let input = null;
 
-while ((userInput = prompt("Enter any NUMBER:")) !== null) {
-  if (isNaN(Number.parseInt(userInput))) {
+while ((input = prompt("Enter any NUMBER:")) !== null) {
+  if (isNaN(Number.parseInt(input))) {
     alert("Было введено не число, попробуйте еще раз");
   } else {
-    total += Number.parseInt(userInput);
+    total += Number.parseInt(input);
   }
 }
 
